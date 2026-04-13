@@ -2,16 +2,18 @@
 
 A modern 3D dice roller application built with Vue 3 and CSS 3D transforms.
 
-## Features
+## ✨ Features
 
-- 🎲 **Roll 1-6 dice** - Select how many dice you want to roll
-- 🎬 **3D Animation** - Realistic dice rolling animation using CSS 3D transforms
-- 📊 **Results Display** - Shows individual dice values and total sum clearly
-- 📜 **Roll History** - Keeps track of all rolls during the session with timestamps
-- 🌙 **Dark Mode** - Toggle between light and dark themes (respects system preference)
-- ✨ **Modern Design** - Clean, minimalist UI with Tailwind CSS
+| Feature | Description |
+|---------|-------------|
+| 🎲 **Dice Selection** | Roll 1-6 dice at once |
+| 🎬 **3D Animation** | Realistic CSS 3D rolling animation |
+| 📊 **Results** | Individual dice values + total sum |
+| 📜 **History** | Session roll history with timestamps |
+| 🌙 **Dark Mode** | Light/dark theme toggle |
+| ✨ **Modern UI** | Clean, minimalist Tailwind design |
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Frontend
 
@@ -28,20 +30,35 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: Vue 3, TypeScript, Tailwind CSS, CSS 3D Transforms
 - **Backend**: Spring Boot 3.3, Java 21
 
-## How to Use
+## 📖 How to Use
 
-1. Select the number of dice (1-6) using the numbered buttons
-2. Click the "¡Lanzar dados!" button to roll
-3. Watch the 3D animation as the dice tumble
-4. See your results - individual dice values and total sum
-5. Check the history panel to see all your previous rolls
-6. Toggle dark/light mode with the ☀️/🌙 button in the header
+1. **Select dice count** - Click a number (1-6) to choose how many dice to roll
+2. **Roll!** - Click the purple "¡Lanzar dados!" button
+3. **Watch** - Enjoy the 3D rolling animation
+4. **Results** - See individual values and total sum
+5. **History** - Check the sidebar for past rolls
+6. **Theme** - Toggle ☀️/🌙 for light/dark mode
 
-## License
+## 📁 Project Structure
+
+```
+├── frontend/          # Vue 3 + Vite frontend
+│   ├── src/
+│   │   ├── views/     # Page components
+│   │   ├── router/    # Vue Router config
+│   │   └── assets/    # Static assets
+│   └── package.json
+├── backend/           # Spring Boot backend
+│   ├── src/main/java/
+│   └── pom.xml
+└── README.md
+```
+
+## 📝 License
 
 MIT
