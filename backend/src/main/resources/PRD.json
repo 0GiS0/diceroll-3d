@@ -3,34 +3,46 @@
   "description": "Una app de dados virtuales con animaciones 3D, historial de tiradas y modo oscuro para juegos de mesa o decisiones al azar.",
   "requirements": [
     {
-      "title": "Página de inicio",
-      "description": "Landing page principal con información del producto",
-      "priority": "alta"
+      "id": 1,
+      "title": "Seleccionar cantidad de dados",
+      "description": "El usuario puede elegir cuántos dados quiere tirar, desde 1 hasta 6 dados a la vez.",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Autenticación de usuarios",
-      "description": "Login y registro con validación de formularios",
-      "priority": "alta"
+      "id": 2,
+      "title": "Animación 3D del lanzamiento",
+      "description": "Cuando el usuario tira los dados, se muestra una animación tridimensional realista de los dados rodando antes de mostrar el resultado.",
+      "type": "ui",
+      "priority": "high"
     },
     {
-      "title": "Panel de administración",
-      "description": "Dashboard para gestionar los datos de la aplicación",
-      "priority": "media"
+      "id": 3,
+      "title": "Mostrar resultado total",
+      "description": "Después de cada tirada, la app muestra claramente el valor de cada dado y la suma total de todos los dados.",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "API REST completa",
-      "description": "Endpoints CRUD para todas las entidades del dominio",
-      "priority": "alta"
+      "id": 4,
+      "title": "Historial de tiradas",
+      "description": "La app guarda un registro de todas las tiradas realizadas durante la sesión, mostrando qué dados se tiraron y qué resultados salieron.",
+      "type": "feature",
+      "priority": "medium"
     },
     {
-      "title": "Diseño responsive",
-      "description": "Interfaz adaptada a móvil, tablet y escritorio",
-      "priority": "media"
+      "id": 5,
+      "title": "Modo oscuro",
+      "description": "El usuario puede cambiar entre un tema claro y un tema oscuro según su preferencia.",
+      "type": "ui",
+      "priority": "medium"
     },
     {
-      "title": "Tests unitarios",
-      "description": "Cobertura de tests para la lógica de negocio principal",
-      "priority": "baja"
+      "id": 6,
+      "title": "Diseño moderno y minimalista",
+      "description": "La aplicación tiene un estilo visual limpio, moderno y minimalista, sin elementos innecesarios que distraigan al usuario.",
+      "type": "ui",
+      "priority": "high"
     }
   ]
 }
